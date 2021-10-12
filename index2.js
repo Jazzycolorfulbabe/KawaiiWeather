@@ -1,3 +1,4 @@
+<script>
 function formatDate(date) {
   let currentHour = date.getHours();
   let currentMinutes = date.getMinutes();
@@ -31,3 +32,4 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
 dateElement.innerHTML = formatDate(currentTime);
+</script>
